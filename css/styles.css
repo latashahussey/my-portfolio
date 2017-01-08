@@ -1,0 +1,87 @@
+/* stylesheet for LaTasha Hussey's Portfolio */
+
+/*  -------- Color Pallette ------------
+
+#F8FFF4: cream | used for main headings and most paragraphs
+#3A3042: dark purple | used for area backgrounds, main header background, and paragraphs
+#846193: light purple | used for area backgrounds, buttons, and paragraphs
+#E75A7C: deep pink | used for rollovers and accents
+#17BEBB: turquoise | used for area backgrounds and accents
+
+*/
+
+/* -------- Fonts ---------------------
+
+Bebas Neue:  display font | used for headings and nav
+Questrial:   sans-serif font | used for paragraphs
+Black Jack:  script font | used for brand name
+
+*/
+@font-face {
+	font-family: 'Questrial';
+	src: url('../font/Questrial-Regular.eot');
+	src: url('../font/Questrial-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../font/Questrial-Regular.woff2') format('woff2'),
+		url('../font/Questrial-Regular.woff') format('woff'),
+		url('../font/Questrial-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Black Jack';
+	src: url('../font/BlackJack.eot');
+	src: url('../font/BlackJack.eot?#iefix') format('embedded-opentype'),
+		url('../font/BlackJack.woff2') format('woff2'),
+		url('../font/BlackJack.woff') format('woff'),
+		url('../font/BlackJack.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../font/BebasNeue.eot');
+	src: url('../font/BebasNeue.eot?#iefix') format('embedded-opentype'),
+		url('../font/BebasNeue.woff2') format('woff2'),
+		url('../font/BebasNeue.woff') format('woff'),
+		url('../font/BebasNeue.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*---------- Table of Contents----------
+
+- Base Styles
+- Sections
+    - Header
+    - About
+    - Skills
+    - Work
+    - Contact
+
+*/
+
+/***** BASE STYLES *****/
+
+div {
+  border: 1px #DDD solid;
+}
+
+body {
+    color: #846193;
+    background-color: #f8fff4;
+    font-family: "Questrial", sans-serif;
+
+}
+
+.greeting {
+  color: #17bebb;
+}
+
+/*-----Nav-----*/
+
+h1 {
+  font-family: "Blackjack", cursive;
+}
