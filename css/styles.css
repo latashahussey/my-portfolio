@@ -76,28 +76,24 @@ section {
   padding: 20px 0;
 }
 
-div {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
+
 
 h2 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 48px;
+  padding: 50px;
 }
 
 h3 {
   font-family: "Questrial", sans-serif;
 }
 
-a, a:hover {
+a{
   color: #f8fff4;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #e75a7c;
 }
 .greeting {
   color: #e75a7c;
